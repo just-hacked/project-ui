@@ -22,11 +22,11 @@ export const MenuOverlay = ({ menuState, setMenuState }) => {
         }
       >
         <div className="relative top-14 h-96 flex flex-col justify-center items-center">
-          <Link href="/">
+          <Link href="/about">
             <a className="text-6xl my-3 cursor-pointer">About</a>
           </Link>
-          <Link href="/overview">
-            <a className="text-6xl my-3 cursor-pointer">Works</a>
+          <Link href="/doc">
+            <a className="text-6xl my-3 cursor-pointer">Documentation</a>
           </Link>
         </div>
       </div>
