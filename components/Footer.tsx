@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import { RiGithubFill, RiLinkedinFill } from "react-icons/ri";
+import { RiGithubFill, RiLinkedinFill  } from "react-icons/ri";
+import { CiMail } from "react-icons/ci";
 
 export const Footer = () => {
   return (
@@ -16,13 +17,13 @@ export const Footer = () => {
             </a>
           </Link>
         </li>
-        {/* <li className="mr-2.5 lg:mr-10 cursor-pointer">
-          <Link href="https://www.linkedin.com/">
-            <a target="_blank" rel="noreferrer noopener" aria-label="linkedin">
-              <RiLinkedinFill size={20} className="hover:text-third" />
+        <li className="mr-2.5 lg:mr-10 cursor-pointer">
+          <Link href="mailto:team@shieldcubed.xyz">
+            <a target="_blank" rel="noreferrer noopener" aria-label="mail">
+              <CiMail size={20} className="hover:text-third" />
             </a>
           </Link>
-        </li> */}
+        </li>
       </ul>
     </div>
   );

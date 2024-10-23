@@ -42,8 +42,8 @@ const Home = () => {
             <span className="gradient-text">
             e.g. worms, ransomware, botnets, viruses
             </span>{" "}
-            and other malware agents{" "}
-            <span className="underline-span">programming</span> .
+            and other {" "}
+            <span className="underline-span">malware agents</span> .
           </motion.p>
         </motion.div>
         <div className="md:static fixed md:block w-1/2">
